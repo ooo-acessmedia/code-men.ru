@@ -1,0 +1,143 @@
+// Вывод 4 плашек на странице
+
+.top-models {
+  .main-product-item:nth-child(4n+4) {
+    margin-right: 0;
+  }
+}
+
+.catalog-list {
+
+  .main-product-item {
+    margin-right: 4px;
+  }
+
+  .main-product-item:nth-child(3n+3) {
+    margin-right: 0;
+  }
+}
+
+
+.main-product-item {
+  width: 242px;
+  margin-bottom: 36px;
+  margin-right: 10px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .image {
+    border: 1px solid #cccccc;
+    margin-bottom: 1px;
+    position: relative;
+
+    .hover-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      display: none;
+      background: url("../../img/bg-main-product-main-hover.png");
+
+      .available {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        
+        div {
+          font-size: 12px;
+          text-transform: lowercase;
+          color: white;
+          padding: 4px 11px;
+          background: #c80102;
+          border-radius: 5px;
+        }
+      }
+
+      .hover-price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        font-size: 26px;
+        color: #c80102;
+        font-family: @Black;
+        text-shadow: 1px 1px 0 white;
+        
+        div {
+          padding-bottom: 5px;
+          border-bottom: 1px solid #9f9fa0;
+          padding-left: 22px;
+          padding-right: 22px;
+        }
+
+        span {
+          color: white;
+          font-family: @PTSerif;
+          font-size: 18px;
+        }
+      }
+
+      .hover-title {
+        margin-top: 31px;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    &:hover {
+      .hover-image {
+        display: block;
+      }
+    }
+  }
+
+  .title {
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #cccccc;
+    padding: 8px 16px;
+  }
+
+  .price {
+    border: 1px solid #cccccc;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    background: url("../../img/bg-top-header.png");
+
+    .old-price {
+      font-size: 14px;
+      color: #ff3333;
+      text-decoration: line-through;
+      margin-top: 2px;
+    }
+
+    .current-price {
+      font-family: @Black;
+      font-size: 16px;
+      color: white;
+
+      span {
+        font-family: @PTSerif;
+        font-size: 14px;
+        color: white;
+      }
+    }
+
+    .more {
+      width: 11px;
+      height: 12px;
+      background: url("../../img/bg-main-product-more.png") no-repeat;
+      margin-top: 5px;
+    }
+  }
+}

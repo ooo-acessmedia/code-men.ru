@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /manager/
+Disallow: /assets/components/
+Disallow: /core/
+Disallow: /mgr/
+Disallow: /connectors/
+Disallow: /index.php
+Disallow: /service-pages/
+Disallow: *?
+Host: code-men.ru
+Sitemap: http://code-men.ru/sitemap.xml

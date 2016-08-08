@@ -1,0 +1,52 @@
+.main-img-wrap {
+  background: #000;
+  background-image: url("../../img/bg-main-img-wrap.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+.not-main-page {
+
+  .main-img-wrap {
+    background: #000;
+    background-image: url("../../img/bg-main-img-wrap-sec.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+  }
+
+
+  .main-img {
+    padding-bottom: 110px;
+  }
+}
+
+.main-img {
+  padding-top: 57px;
+  padding-bottom: 217px;
+  position: relative;
+
+  > .title {
+    font-size: 72px;
+    color: white;
+  }
+  
+  > .text {
+    font-family: @Light;
+    font-size: 48px;
+    color: white;
+    line-height: 80px;
+  }
+
+}
+
+.main-img-fade {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(25, 14, 16, 0.8);
+  display: none;
+}

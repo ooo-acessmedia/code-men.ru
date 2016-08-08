@@ -1,0 +1,29 @@
+.catalog-content-wrap {
+  flex-grow: 1;
+}
+
+.catalog-content {
+  display: flex;
+  justify-content: space-between;
+
+  > .content {
+    flex-grow: 1;
+    padding: 20px 10px;
+
+
+
+    > .title {
+      font-family: @BBold;
+    }
+  }
+
+  > .left-block {
+    flex-shrink: 0;
+  }
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}

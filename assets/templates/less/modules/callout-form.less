@@ -1,0 +1,51 @@
+.callout-form {
+  padding-right: 35px;
+
+  @bdColor: 1px solid rgba(235, 235, 235, 1);
+  @inputsPlaceholderColor: #969696;
+
+  > .title {
+    font-size: 14px;
+    color: #000;
+    font-family: @Black;
+    margin-bottom: 16px;
+  }
+
+  input, textarea {
+    width: 100%;
+    border: @bdColor;
+    font-size: 12px;
+    padding: 8px 10px;
+    margin-bottom: 9px;
+    resize: none;
+    font-family: @Black;
+    
+    &.error {
+      border: 1px solid #8b6263;
+    }
+
+    &::-webkit-input-placeholder {
+      color: @inputsPlaceholderColor;
+    }
+    &::-moz-placeholder {
+      color: @inputsPlaceholderColor;
+    }
+    &:-moz-placeholder {
+      color: @inputsPlaceholderColor;
+    }
+    &:-ms-input-placeholder {
+      color: @inputsPlaceholderColor;
+    }
+  }
+
+  button {
+    font-family: @BBold;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background: #c80102;
+    border: none;
+    width: 100%;
+    padding: 7px;
+  }
+}
