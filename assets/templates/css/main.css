@@ -3419,7 +3419,6 @@ body {
 .left-block {
   background: url("../img/bg-top-header.png");
   width: 245px;
-  padding-bottom: 33px;
   -webkit-align-self: flex-start;
       -ms-flex-item-align: start;
           align-self: flex-start;
@@ -3475,6 +3474,12 @@ body {
 }
 .left-menu-list .level-2.active > a {
   text-decoration: underline;
+}
+.show-catalog-btn a {
+  font-size: 32px;
+  color: #c80102;
+  font-family: "BebasNeueBold-Regular", Arial, Helvetica Neue, Helvetica, sans-serif;
+  margin-bottom: 21px;
 }
 .breadcrumb {
   display: -webkit-flex;
@@ -3940,6 +3945,36 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: 0;
+}
+#mse2_filters {
+  margin-left: 20px;
+}
+#mse2_filters h2 {
+  font-size: 32px;
+  color: #c80102;
+  font-family: "BebasNeueBold-Regular", Arial, Helvetica Neue, Helvetica, sans-serif;
+  margin-bottom: 21px;
+  text-transform: uppercase;
+}
+#mse2_filters fieldset {
+  border: none;
+  padding: 0;
+}
+#mse2_filters fieldset h4 {
+  color: white;
+  font-family: "BebasNeueBold-Regular", Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+#mse2_filters fieldset sup {
+  display: none;
+}
+#mse2_filters fieldset label {
+  font-size: 14px;
+  color: white;
+  margin-left: 23px;
 }
 /*Modules*/
 /*States*/

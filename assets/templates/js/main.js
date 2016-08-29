@@ -42,22 +42,22 @@
 
     // Всплывающее меню каталога
 
-    var $catalogLink = $('.main-menu-list').find('li').eq(0).find('>a');
-
-    $catalogLink.on('click', function (event) {
-        event.preventDefault();
-
-        if ($(this).parent().hasClass('touched')) {
-            $('.menu-catalog-list').removeClass('is-visible');
-            $(this).parent().removeClass('touched');
-            $('.main-img-fade').removeClass('is-visible');
-
-        } else {
-            $(this).parent().addClass('touched');
-            $('.menu-catalog-list').addClass('is-visible');
-            $('.main-img-fade').addClass('is-visible');
-        }
-    });
+    // var $catalogLink = $('.main-menu-list').find('li').eq(0).find('>a');
+    //
+    // $catalogLink.on('click', function (event) {
+    //     event.preventDefault();
+    //
+    //     if ($(this).parent().hasClass('touched')) {
+    //         $('.menu-catalog-list').removeClass('is-visible');
+    //         $(this).parent().removeClass('touched');
+    //         $('.main-img-fade').removeClass('is-visible');
+    //
+    //     } else {
+    //         $(this).parent().addClass('touched');
+    //         $('.menu-catalog-list').addClass('is-visible');
+    //         $('.main-img-fade').addClass('is-visible');
+    //     }
+    // });
 
     // Маска для телефона
 
