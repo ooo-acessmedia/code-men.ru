@@ -3416,6 +3416,11 @@ body {
   background: url("../img/bg-main-product-more.png") no-repeat;
   margin-top: 5px;
 }
+.main-product-item.catalog-page-item .vertical-middle {
+  font-weight: bold;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 17px;
+}
 .left-block {
   background: url("../img/bg-top-header.png");
   width: 245px;
